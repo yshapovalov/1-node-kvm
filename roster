@@ -1,0 +1,5 @@
+aio:
+    host: 10.18.0.2
+    user: ubuntu
+    priv: /home/jenkins/.ssh/id_rsa
+    sudo: True
