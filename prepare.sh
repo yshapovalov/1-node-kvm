@@ -33,7 +33,3 @@ sudo virsh net-update mcp_ext add \
        	--live --config
 
 sudo virsh start aio_mcp
-
-ssh-keygen -f ~/.ssh/known_hosts -R 10.18.0.2
-
-
