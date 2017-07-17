@@ -65,10 +65,3 @@ for formula_service in "${formula_services[@]}"; do
   make install
   cd -
 done
-
-salt-call --no-color state.sls linux,openssh -l info
-salt-call --no-color state.sls reclass -l info
-salt-call --no-color state.sls salt.master.service -l info
-salt-call --no-color state.sls salt.master
-salt-call --no-color saltutil.sync_all
-salt-call --no-color state.sls salt.api,salt.minion.ca -l info
